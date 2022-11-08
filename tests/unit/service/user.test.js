@@ -6,7 +6,6 @@ chai.use(chaiHttp);
 const { expect } = chai;
 
 const app = require('../../../src/api');
-const token = require('../index');
 
 describe('Rote POST /register', () => {
   describe('When the "body" data are valid', () => {
