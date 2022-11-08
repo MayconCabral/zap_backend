@@ -10,7 +10,7 @@ const { expect } = chai;
 const app = require('../../../src/api');
 const token = require('../index');
 
-// no console.log for the test.
+//no console.log for the test.
 const consoleLogStub = stub(console, 'log');
 before(()=> consoleLogStub.returns(true));
 after(()=> consoleLogStub.restore());
