@@ -18,6 +18,15 @@ const addContact = async (req) => {
   }
 };
 
+const getContacts = async (req) => {
+  const { userId } = req;
+  const id = Number(userId);
+
+  const contacts = await Contact.findAll({ where: { userId: id }});
+  return contacts;
+}
+
 module.exports = {
   addContact,
+  getContacts,
 }
