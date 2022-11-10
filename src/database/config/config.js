@@ -19,8 +19,18 @@ const testConfig = {
   "logging": false, 
 }
 
+const supabase = {
+  username: process.env.SUPABASE_USER,
+  password: process.env.SUPABASE_PASSWORD,
+  database: 'zap_backend',
+  host: process.env.SUPABASE_HOST,
+  dialect: 'postgres',  
+  timezone: '-03:00',
+  "logging": false, 
+}
+
 module.exports = {
   development: config,
   test: testConfig,
-  production: config,
+  production: supabase,
 };

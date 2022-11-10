@@ -4,10 +4,12 @@
   "description": "",
   "main": "src/server.js",
   "scripts": {
+    "start": "node src/server.js",
     "dev": "nodemon src/server.js",
     "db:reset": "npx sequelize-cli db:drop && npx sequelize-cli db:create && npx sequelize-cli db:migrate",
-    "dbtest:reset" : "NODE_ENV=test npx sequelize-cli db:drop && NODE_ENV=test npx sequelize-cli db:create && NODE_ENV=test npx sequelize-cli db:migrate && NODE_ENV=test npx sequelize-cli db:seed:all",
-    "test": "NODE_ENV=test mocha tests/**/*$NAME*.test.js --exit"
+    "dbtest:reset": "NODE_ENV=test npx sequelize-cli db:drop && NODE_ENV=test npx sequelize-cli db:create && NODE_ENV=test npx sequelize-cli db:migrate && NODE_ENV=test npx sequelize-cli db:seed:all",
+    "test": "NODE_ENV=test mocha tests/**/*$NAME*.test.js --exit",
+    "deploy": "NODE_ENV=production npx sequelize-cli db:create && NODE_ENV=production npx sequelize-cli db:migrate && NODE_ENV=production npx sequelize-cli db:seed:all"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +24,8 @@
     "md5": "^2.3.0",
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
     "sequelize": "^6.25.3"
   },
   "devDependencies": {
