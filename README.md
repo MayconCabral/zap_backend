@@ -1,14 +1,12 @@
 # 🚧🚧🚧 ...WORKING... 🚧🚧🚧
 
-<h3>Para requisição de login do usuário utilize o Json abaixo<h3/>
+<h3>Para requisições de login do usuário, utilize o Json abaixo<h3/>
 	
-```json
-	
+```json	
     {
 	"name": "Maycon Cabral",	
-	"password": "abc123",	
-}
-	
+	"password": "abc123"	
+}	
 ```
 	
     <h4>Há três usuários, pré-cadastrado no banco de dados, que utilizam a mesma senha</h4>
