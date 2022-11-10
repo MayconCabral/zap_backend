@@ -42,7 +42,7 @@ Não possui contatos? Não tem problema, cadastre novos usuários para a sua lis
 {
   "name": "Marcus Vincius",
   "phone": "61998132647",
-  "userId": "4"
+  "userId": "3"
 }
 ```
 OBS:. Só poderá haver um contato com o mesmo número.
