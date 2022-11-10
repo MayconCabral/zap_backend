@@ -57,7 +57,7 @@ Para enviar menssagens, envie o seu ID e o ID do seu contato.
 ```json
 {
   "sender": "seu ID vem aqui!",
-  "message": "etestandoxxxxxx!",
+  "message": "Olá mundo!",
   "receiver": "o ID do seu contato!"
 }
 ```
