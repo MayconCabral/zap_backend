@@ -1,6 +1,3 @@
-# 🚧🚧🚧 ...WORKING... 🚧🚧🚧
-
-
 Para requisições de login do usuário, utilize o Json abaixo. Guarde o TOKEN de segurança para não ter o acesso negado, TOKEN se expira em 24hrs!
 - POST https://zap-backend.onrender.com/login
 	
