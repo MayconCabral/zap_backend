@@ -2,7 +2,7 @@ const utils = require('../utils');
 
 const authentication = (req, _res, next) => {
   const { authorization: token } = req.headers;
-
+  console.log(token)
   if (!token) throw utils.erroMessage(401, 'Acesso negado!');
 
     try {

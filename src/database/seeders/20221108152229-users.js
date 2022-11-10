@@ -6,7 +6,7 @@ module.exports = {
       {
         name: 'Seles Oliveira',
         password: 'e99a18c428cb38d5f260853678922e03',
-        phoneNumber: '61981222555'
+        phoneNumber: '61982355555'
       },
       {
         name: 'Vinicius',

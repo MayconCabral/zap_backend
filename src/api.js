@@ -12,6 +12,13 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
+app.get('/', (_req, res) => {
+  res.status(200).json({
+    message: 'Welcome!',
+    apiInfo: 'https://github.com/MayconCabral/zap_backend'
+  })
+})
+
 app.use(userRouter);
 app.use(contactRouter);
 app.use(messageRouter);
