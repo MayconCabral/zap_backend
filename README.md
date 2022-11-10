@@ -12,12 +12,10 @@ Para requisições de login do usuário, utilize o Json abaixo.
 ```
 
  Há três usuários, pré-cadastrado no banco de dados, que utilizam a mesma senha, escolha um deles e have fun!
-	
-    <ul>
-        <li>Seles Oliveira</li>  
-        <li>Vinicius</li> 
-        <li>Maycon Cabral</li> 
-    </ul>
+
+* Seles Oliveira
+* Vincius
+* Maycon Cabral  
     
 ___________________________
 
