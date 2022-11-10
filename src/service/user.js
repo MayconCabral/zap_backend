@@ -49,6 +49,7 @@ const login = async (req) => {
 
   return {
     id,
+    name: user.name,
     phoneNumber,
     token,
   }
