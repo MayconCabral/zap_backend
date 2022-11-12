@@ -25,7 +25,7 @@ ___________________________
    "password": "abc123"	
 }
 ```
-OBS:. Não será permitido cadastrar o mesmo usuário, usuário sem nome ou com senha menor do que 6 digitos.
+OBS:. Não será permitido cadastrar o mesmo usuário, usuário sem nome, número de digitos de telefone maior que 11 ou menor que 10, como também senha menor do que 6 digitos.
 ____________________________
 
 Cada usuário possui sua lista de contados vinculado ao seu ID, basta enviar o seu ID.
