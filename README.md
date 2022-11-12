@@ -28,7 +28,7 @@ ___________________________
 OBS:. Não será permitido cadastrar o mesmo usuário, usuário sem nome, número de dígitos de telefone maior que 11 ou menor que 10, como também senha menor do que 6 dígitos.
 ____________________________
 
-Cada usuário possui sua lista de contados vinculado ao seu ID, basta enviar o seu ID.
+Cada usuário possui sua lista de contatos vinculado ao seu ID, basta enviar o seu ID.
 - GET https://zap-backend.onrender.com/register
 
 ```json
