@@ -15,12 +15,13 @@ Para requisições de login do usuário, utilize o Json abaixo. Guarde o TOKEN d
 * Maycon Cabral      
 ___________________________
 
-É possível se cadastrar também! Envie seu nome e senha como no exemplo Json abaixo. Guarde o TOKEN de segurança para não ter o acesso negado, TOKEN se expira em 24hrs!
+É possível se cadastrar também! Envie seu nome, número de telefone e senha como no exemplo Json abaixo. Guarde o TOKEN de segurança para não ter o acesso negado, TOKEN se expira em 24hrs!
 - POST https://zap-backend.onrender.com/register
 
 ```json
 {
-   "name": "Maycon Cabral",	
+   "name": "Maycon Cabral",
+   "phoneNumber": "61983269646",
    "password": "abc123"	
 }
 ```
